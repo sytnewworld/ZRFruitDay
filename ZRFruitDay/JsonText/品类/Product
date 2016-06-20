@@ -1,0 +1,59 @@
+{
+	"product": {
+		"id": "7791",
+		"product_name": "\u7ea2\u988a\u8349\u8393",
+		"discription": "<html>\n\t<head>\n\t\t<meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;\" name=\"viewport\" \/>\n\t\t\u200b<style>*{margin:0; padding:0;}\n\t\t\t.app-detail{padding:5px; margin:0}\n\t\t\t.app-detail>img{width:100%;}\n\t\t<\/style>\n\t<\/head>\n\t<body><div class=\"app-detail\"><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508488951701.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508488951701.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508488975194.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508488975194.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508488991881.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508488991881.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489013363.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489013363.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489023074.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489023074.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489047319.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489047319.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489064669.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489064669.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489072500.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489072500.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489099452.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489099452.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489108297.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489108297.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489121043.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489121043.jpg\" \/><img src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489142672.jpg\" _src=\"http:\/\/img2.fruitday.com\/up_images\/20151223\/14508489142672.jpg\" \/><\/div><\/body>\n<\/html>",
+		"photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/7791\/1\/1-370x370-7791-7339UYST.jpg",
+		"thum_photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/7791\/1\/1-180x180-7791-7339UYST.jpg",
+		"send_region": "a:1:{i:0;s:6:\"106092\";}",
+		"free": "0",
+		"consumer_tips": "",
+		"op_place": "2",
+		"op_detail_place": "50",
+		"op_size": "1",
+		"tag_id": "73",
+		"parent_id": "40",
+		"product_desc": "",
+		"lack": "0",
+		"use_store": "1",
+		"sweet": "3",
+		"store": "1",
+		"op_weight": "",
+		"prodcut_desc": ""
+	},
+	"items": [{
+		"id": "9964",
+		"price": "69",
+		"volume": "2\u65a4\u88c5",
+		"product_no": "2151221106",
+		"product_id": "7791",
+		"old_price": "0",
+		"unit": "\u76d2",
+		"stock": "9"
+	}],
+	"photo": [{
+		"thum_photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/7791\/1\/1-180x180-7791-7339UYST.jpg",
+		"photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/7791\/1\/1-370x370-7791-7339UYST.jpg"
+	}, {
+		"thum_photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/7791\/3\/3-180x180-7791-W2YC3CAB.jpg",
+		"photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/7791\/3\/3-370x370-7791-W2YC3CAB.jpg"
+	}, {
+		"thum_photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/7791\/2\/2-180x180-7791-W2YC3CAB.jpg",
+		"photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/7791\/2\/2-370x370-7791-W2YC3CAB.jpg"
+	}],
+	"share_url": "http:\/\/m.fruitday.com\/detail\/index\/7791",
+	"banner": {
+		"photo": "http:\/\/cdn.fruitday.com\/images\/2016-01-17\/4075d71aa9c165c620f548174837ca7a.jpg",
+		"price": "0.00",
+		"title": "\u9c9c\u94f6\u8033",
+		"type": "2",
+		"target_id": "8001",
+		"description": "",
+		"page_url": "",
+		"position": "1",
+		"channel": "portal",
+		"start_time": null,
+		"end_time": null
+	},
+	"is_presell": 0
+}

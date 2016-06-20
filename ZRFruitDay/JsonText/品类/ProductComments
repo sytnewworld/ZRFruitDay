@@ -1,0 +1,11 @@
+{
+	"good": 96,
+	"normal": 3,
+	"bad": 1,
+	"num": {
+		"total": 1453,
+		"good": 1395,
+		"normal": 43,
+		"bad": 15
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"product": {
+		"id": "8008",
+		"product_name": "CQ-\u5927\u4e2a\u65b0\u897f\u5170\u6a31\u6843",
+		"discription": "<html>\n\t<head>\n\t\t<meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;\" name=\"viewport\" \/>\n\t\t\u200b<style>*{margin:0; padding:0;}\n\t\t\t.app-detail{padding:5px; margin:0}\n\t\t\t.app-detail>img{width:100%;}\n\t\t<\/style>\n\t<\/head>\n\t<body><div class=\"app-detail\"><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939338890.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939338890.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939354531.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939354531.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939379411.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939379411.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939392540.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939392540.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939417672.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939417672.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939433867.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939433867.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939456273.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939456273.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939469450.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939469450.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/145379394895.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/145379394895.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939501965.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939501965.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939528470.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/14537939528470.jpg\" \/><img src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/1453793954863.jpg\" _src=\"http:\/\/img4.fruitday.com\/up_images\/20160126\/1453793954863.jpg\" \/><\/div><\/body>\n<\/html>",
+		"photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/1\/1-370x370-8008-375CCAS8.jpg",
+		"thum_photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/1\/1-180x180-8008-375CCAS8.jpg",
+		"send_region": "a:7:{i:0;s:6:\"143949\";i:1;s:6:\"143983\";i:2;s:6:\"144005\";i:3;s:6:\"144252\";i:4;s:6:\"144443\";i:5;s:6:\"144522\";i:6;s:6:\"145874\";}",
+		"free": "0",
+		"consumer_tips": "",
+		"op_place": "1",
+		"op_detail_place": "55",
+		"op_size": "1",
+		"tag_id": "71",
+		"parent_id": "40",
+		"product_desc": "",
+		"lack": "0",
+		"use_store": "0",
+		"sweet": "4",
+		"store": "1",
+		"op_weight": "\u76f4\u5f84\u7ea6\u4e3a\uff1a28-30mm",
+		"prodcut_desc": ""
+	},
+	"items": [{
+		"id": "10183",
+		"price": "348",
+		"volume": "4\u65a4\u88c5",
+		"product_no": "2151230103",
+		"product_id": "8008",
+		"old_price": "388",
+		"unit": "\u76d2",
+		"stock": ""
+	}],
+	"photo": [{
+		"thum_photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/1\/1-180x180-8008-375CCAS8.jpg",
+		"photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/1\/1-370x370-8008-375CCAS8.jpg"
+	}, {
+		"thum_photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/4\/4-180x180-8008-YX7RX43A.jpg",
+		"photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/4\/4-370x370-8008-YX7RX43A.jpg"
+	}, {
+		"thum_photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/3\/3-180x180-8008-SKS4RD2D.jpg",
+		"photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/3\/3-370x370-8008-SKS4RD2D.jpg"
+	}, {
+		"thum_photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/2\/2-180x180-8008-SKS4RD2D.jpg",
+		"photo": "http:\/\/cdn.fruitday.com\/images\/product_pic\/8008\/2\/2-370x370-8008-SKS4RD2D.jpg"
+	}],
+	"share_url": "http:\/\/m.fruitday.com\/detail\/index\/8008",
+	"banner": {
+		"photo": "http:\/\/cdn.fruitday.com\/images\/2016-01-28\/94bd7a46cd5e2a20e00b374a6c5be8d0.jpg",
+		"price": "0.00",
+		"title": "app-\u7f6e\u987601-\u5f00\u95e8\u7ea2\u5e74\u8d27\u8282-\u5317\u4eac",
+		"type": "6",
+		"target_id": "0",
+		"description": "",
+		"page_url": "http:\/\/huodong.fruitday.com\/sale\/goodluck\/indexbj.html?",
+		"position": "1",
+		"channel": "portal",
+		"start_time": null,
+		"end_time": null
+	},
+	"is_presell": 0
+}

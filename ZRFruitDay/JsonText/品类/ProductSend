@@ -1,0 +1,21 @@
+{
+	"code": "200",
+	"msg": {
+		"can_buy": 1,
+		"send_desc": "01\u670829\u65e509:00-18:00\u9001\u8fbe",
+		"area_info": {
+			"province": {
+				"id": "106092",
+				"name": "\u4e0a\u6d77"
+			},
+			"city": {
+				"id": "106093",
+				"name": "\u4e0a\u6d77\u5e02"
+			},
+			"area": {
+				"id": "106094",
+				"name": "\u6d66\u4e1c\u65b0\u533a\uff08\u5916\u73af\u7ebf\u4ee5\u5185\uff09"
+			}
+		}
+	}
+}

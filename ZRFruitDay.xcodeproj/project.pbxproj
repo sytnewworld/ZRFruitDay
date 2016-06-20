@@ -1,0 +1,1137 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0493421C843B48003F5B94 /* ZRUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0493411C843B48003F5B94 /* ZRUser.m */; };
+		1C2385841C4898B0007D2AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2385831C4898B0007D2AC9 /* main.m */; };
+		1C2385871C4898B0007D2AC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2385861C4898B0007D2AC9 /* AppDelegate.m */; };
+		1C23859D1C4898B0007D2AC9 /* ZRFruitDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C23859C1C4898B0007D2AC9 /* ZRFruitDayTests.m */; };
+		1C335F511C507ED700BCD9D4 /* UIColor+ZRAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C335F501C507ED700BCD9D4 /* UIColor+ZRAddition.m */; };
+		1C335F541C50B6BC00BCD9D4 /* ZRWebViewDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C335F531C50B6BC00BCD9D4 /* ZRWebViewDetailViewController.m */; };
+		1C335F6E1C50DA8E00BCD9D4 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F581C50DA8E00BCD9D4 /* AppIcon40x40@2x.png */; };
+		1C335F6F1C50DA8E00BCD9D4 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F591C50DA8E00BCD9D4 /* AppIcon60x60@2x.png */; };
+		1C335F701C50DA8E00BCD9D4 /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F5A1C50DA8E00BCD9D4 /* AppIcon60x60@3x.png */; };
+		1C335F711C50DA8E00BCD9D4 /* bg_business@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F5B1C50DA8E00BCD9D4 /* bg_business@2x.jpg */; };
+		1C335F721C50DA8E00BCD9D4 /* errorIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F5C1C50DA8E00BCD9D4 /* errorIcon@2x.png */; };
+		1C335F731C50DA8E00BCD9D4 /* extra-r4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F5D1C50DA8E00BCD9D4 /* extra-r4.jpg */; };
+		1C335F741C50DA8E00BCD9D4 /* icon_session.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F5E1C50DA8E00BCD9D4 /* icon_session.png */; };
+		1C335F751C50DA8E00BCD9D4 /* icon_session@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F5F1C50DA8E00BCD9D4 /* icon_session@2x.png */; };
+		1C335F761C50DA8E00BCD9D4 /* icon_timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F601C50DA8E00BCD9D4 /* icon_timeline.png */; };
+		1C335F771C50DA8E00BCD9D4 /* icon_timeline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F611C50DA8E00BCD9D4 /* icon_timeline@2x.png */; };
+		1C335F781C50DA8E00BCD9D4 /* JuiceBG@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F621C50DA8E00BCD9D4 /* JuiceBG@2x.jpg */; };
+		1C335F791C50DA8E00BCD9D4 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F631C50DA8E00BCD9D4 /* LaunchImage-700-568h@2x.png */; };
+		1C335F7A1C50DA8E00BCD9D4 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F641C50DA8E00BCD9D4 /* LaunchImage-800-667h@2x.png */; };
+		1C335F7B1C50DA8E00BCD9D4 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F651C50DA8E00BCD9D4 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		1C335F7C1C50DA8E00BCD9D4 /* messageIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F661C50DA8E00BCD9D4 /* messageIcon@2x.png */; };
+		1C335F7D1C50DA8E00BCD9D4 /* OrderConfirmBG@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F671C50DA8E00BCD9D4 /* OrderConfirmBG@2x.jpg */; };
+		1C335F7E1C50DA8E00BCD9D4 /* pink_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F681C50DA8E00BCD9D4 /* pink_bg@2x.png */; };
+		1C335F7F1C50DA8E00BCD9D4 /* pink_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F691C50DA8E00BCD9D4 /* pink_bg@3x.png */; };
+		1C335F801C50DA8E00BCD9D4 /* successIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F6A1C50DA8E00BCD9D4 /* successIcon@2x.png */; };
+		1C335F811C50DA8E00BCD9D4 /* warningIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F6B1C50DA8E00BCD9D4 /* warningIcon@2x.png */; };
+		1C335F821C50DA8E00BCD9D4 /* 提货券使用说明.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F6C1C50DA8E00BCD9D4 /* 提货券使用说明.jpg */; };
+		1C335F851C50DAF300BCD9D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C335F841C50DAF300BCD9D4 /* Images.xcassets */; };
+		1C4079BD1C604AFE00FF6137 /* ZRHistogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4079BC1C604AFE00FF6137 /* ZRHistogram.m */; };
+		1C434C7E1C5B0DED00B8621D /* Product in Resources */ = {isa = PBXBuildFile; fileRef = 1C434C791C5B0DED00B8621D /* Product */; };
+		1C434C7F1C5B0DED00B8621D /* ProductComments in Resources */ = {isa = PBXBuildFile; fileRef = 1C434C7A1C5B0DED00B8621D /* ProductComments */; };
+		1C434C801C5B0DED00B8621D /* ProductFruitEat in Resources */ = {isa = PBXBuildFile; fileRef = 1C434C7B1C5B0DED00B8621D /* ProductFruitEat */; };
+		1C434C811C5B0DED00B8621D /* ProductSendRegion in Resources */ = {isa = PBXBuildFile; fileRef = 1C434C7C1C5B0DED00B8621D /* ProductSendRegion */; };
+		1C434C821C5B0DED00B8621D /* ProductsList in Resources */ = {isa = PBXBuildFile; fileRef = 1C434C7D1C5B0DED00B8621D /* ProductsList */; };
+		1C5659B01C7C453400A45095 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C5659AF1C7C453400A45095 /* PassKit.framework */; };
+		1C59AE3A1C58807E00A09573 /* ZRProductDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C59AE391C58807E00A09573 /* ZRProductDetailCell.m */; };
+		1C6904DA1C859A470040967A /* ZRFruitEatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6904D91C859A470040967A /* ZRFruitEatTableViewCell.m */; };
+		1C7721971C89A26300831333 /* ZRFruitEatTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7721961C89A26300831333 /* ZRFruitEatTableHeaderView.m */; };
+		1C7AC3771C55F95000E13D20 /* Classify in Resources */ = {isa = PBXBuildFile; fileRef = 1C7AC3671C55F95000E13D20 /* Classify */; };
+		1C7AC37C1C55F95000E13D20 /* SubClassifyDetail in Resources */ = {isa = PBXBuildFile; fileRef = 1C7AC36C1C55F95000E13D20 /* SubClassifyDetail */; };
+		1C7AC37D1C55F95000E13D20 /* LastestContent in Resources */ = {isa = PBXBuildFile; fileRef = 1C7AC36F1C55F95000E13D20 /* LastestContent */; };
+		1C7AC37F1C55F95000E13D20 /* TopButton in Resources */ = {isa = PBXBuildFile; fileRef = 1C7AC3711C55F95000E13D20 /* TopButton */; };
+		1C7AC3811C55F95000E13D20 /* Address in Resources */ = {isa = PBXBuildFile; fileRef = 1C7AC3751C55F95000E13D20 /* Address */; };
+		1C7AC3821C55F95000E13D20 /* Home in Resources */ = {isa = PBXBuildFile; fileRef = 1C7AC3761C55F95000E13D20 /* Home */; };
+		1C7AC3851C55FBF300E13D20 /* ZRSubClassifyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7AC3841C55FBF300E13D20 /* ZRSubClassifyDetailViewController.m */; };
+		1C7AC3881C5610DC00E13D20 /* ZRProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7AC3871C5610DC00E13D20 /* ZRProductDetailViewController.m */; };
+		1C7AC38B1C5610F700E13D20 /* ZRProductListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7AC38A1C5610F700E13D20 /* ZRProductListTableViewCell.m */; };
+		1C7AC3951C561EFA00E13D20 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7AC3941C561EFA00E13D20 /* Product.m */; };
+		1C7AC39F1C56373000E13D20 /* ZRCommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7AC39E1C56373000E13D20 /* ZRCommonView.m */; };
+		1C7F7E651C51C4D90012A5DF /* ZRPersonalGardenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F7E641C51C4D90012A5DF /* ZRPersonalGardenViewController.m */; };
+		1C7F7E681C51C4E60012A5DF /* ZRShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F7E671C51C4E60012A5DF /* ZRShoppingCartViewController.m */; };
+		1C7F7E6B1C51C4F40012A5DF /* ZRFruitEatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F7E6A1C51C4F40012A5DF /* ZRFruitEatViewController.m */; };
+		1C7F7E881C5226620012A5DF /* Classify.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F7E7C1C5226620012A5DF /* Classify.m */; };
+		1C7F7E8D1C5226620012A5DF /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F7E871C5226620012A5DF /* Home.m */; };
+		1C7F7E921C522F050012A5DF /* ZRHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F7E8F1C522F050012A5DF /* ZRHomeCollectionViewCell.m */; };
+		1C7F7E931C522F050012A5DF /* ZRHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F7E911C522F050012A5DF /* ZRHomeTableViewCell.m */; };
+		1C7F7E961C522F1F0012A5DF /* ZRClassifyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7F7E951C522F1F0012A5DF /* ZRClassifyCollectionViewCell.m */; };
+		1C8B7F181C5F03FA00E75153 /* ZRCommentsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8B7F171C5F03FA00E75153 /* ZRCommentsDetailViewController.m */; };
+		1C8B7F1A1C5F419A00E75153 /* CommentsDetail in Resources */ = {isa = PBXBuildFile; fileRef = 1C8B7F191C5F419A00E75153 /* CommentsDetail */; };
+		1C8B7F1D1C5F41CA00E75153 /* CommentsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8B7F1C1C5F41CA00E75153 /* CommentsDetail.m */; };
+		1C8B7F201C5F4B5B00E75153 /* ZRCommentsDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8B7F1F1C5F4B5B00E75153 /* ZRCommentsDetailCell.m */; };
+		1C8FE6B91C48C44300A32AD7 /* ZRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8FE6B81C48C44300A32AD7 /* ZRHomeViewController.m */; };
+		1C8FE6BF1C48C48E00A32AD7 /* ZRClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8FE6BE1C48C48E00A32AD7 /* ZRClassifyViewController.m */; };
+		1C8FE6C71C48C7D600A32AD7 /* ZRBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8FE6C41C48C7D600A32AD7 /* ZRBaseNavigationController.m */; };
+		1C8FE6C81C48C7D600A32AD7 /* ZRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8FE6C61C48C7D600A32AD7 /* ZRBaseViewController.m */; };
+		1C8FE6CB1C48C80D00A32AD7 /* ZRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8FE6CA1C48C80D00A32AD7 /* ZRTabBarController.m */; };
+		1C9B3B7F1C745DE200763C21 /* ZRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B3B7E1C745DE200763C21 /* ZRLoginViewController.m */; };
+		1C9B3B821C745DF000763C21 /* ZRRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B3B811C745DF000763C21 /* ZRRegisterViewController.m */; };
+		1C9D0A071C8EC9FA005181F3 /* ZRRichScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D0A061C8EC9FA005181F3 /* ZRRichScanViewController.m */; };
+		1C9D0A091C8ECFF4005181F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9D0A081C8ECFF4005181F3 /* AVFoundation.framework */; };
+		1C9D0A0C1C8EED95005181F3 /* ZRFourCornersLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9D0A0B1C8EED95005181F3 /* ZRFourCornersLine.m */; };
+		1CA44D2A1C7FEB43002F4F20 /* ZRSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA44D291C7FEB43002F4F20 /* ZRSettingViewController.m */; };
+		1CA860651C85287100B14074 /* BottomContent in Resources */ = {isa = PBXBuildFile; fileRef = 1CA860631C85287100B14074 /* BottomContent */; };
+		1CA860661C85287100B14074 /* MiddleContent in Resources */ = {isa = PBXBuildFile; fileRef = 1CA860641C85287100B14074 /* MiddleContent */; };
+		1CA8606A1C85293E00B14074 /* FruitEat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA860691C85293E00B14074 /* FruitEat.m */; };
+		1CBEB69E1C8699210061727A /* UIImage+ZRScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBEB69D1C8699210061727A /* UIImage+ZRScale.m */; };
+		1CBEB6A11C869A3A0061727A /* ZRFruitEatTopButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBEB6A01C869A3A0061727A /* ZRFruitEatTopButton.m */; };
+		1CE4B6A91C89309400EB9004 /* ZRTopButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE4B6A81C89309400EB9004 /* ZRTopButtonModel.m */; };
+		1CEA4FE41C50E2F20000A4E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CEA4FE31C50E2F20000A4E3 /* Default-568h@2x.png */; };
+		1CF7F89E1C5A0F6900F316A8 /* ProductSendRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7F89D1C5A0F6900F316A8 /* ProductSendRegion.m */; };
+		3DA26BA5DA57F821AFA8CFA4 /* Pods_ZRFruitDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80FF711F3D63A0711A12EEA /* Pods_ZRFruitDay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C2385991C4898B0007D2AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C2385771C4898AF007D2AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C23857E1C4898B0007D2AC9;
+			remoteInfo = ZRFruitDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C0493401C843B48003F5B94 /* ZRUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRUser.h; sourceTree = "<group>"; };
+		1C0493411C843B48003F5B94 /* ZRUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRUser.m; sourceTree = "<group>"; };
+		1C23857F1C4898B0007D2AC9 /* ZRFruitDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZRFruitDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C2385831C4898B0007D2AC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C2385851C4898B0007D2AC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1C2385861C4898B0007D2AC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1C2385931C4898B0007D2AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2385981C4898B0007D2AC9 /* ZRFruitDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRFruitDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C23859C1C4898B0007D2AC9 /* ZRFruitDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRFruitDayTests.m; sourceTree = "<group>"; };
+		1C23859E1C4898B0007D2AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C30C26B1C4CCDEC005B796E /* CommonDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefines.h; sourceTree = "<group>"; };
+		1C335F4F1C507ED700BCD9D4 /* UIColor+ZRAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZRAddition.h"; sourceTree = "<group>"; };
+		1C335F501C507ED700BCD9D4 /* UIColor+ZRAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZRAddition.m"; sourceTree = "<group>"; };
+		1C335F521C50B6BC00BCD9D4 /* ZRWebViewDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRWebViewDetailViewController.h; sourceTree = "<group>"; };
+		1C335F531C50B6BC00BCD9D4 /* ZRWebViewDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRWebViewDetailViewController.m; sourceTree = "<group>"; };
+		1C335F581C50DA8E00BCD9D4 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		1C335F591C50DA8E00BCD9D4 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		1C335F5A1C50DA8E00BCD9D4 /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x.png"; sourceTree = "<group>"; };
+		1C335F5B1C50DA8E00BCD9D4 /* bg_business@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_business@2x.jpg"; sourceTree = "<group>"; };
+		1C335F5C1C50DA8E00BCD9D4 /* errorIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "errorIcon@2x.png"; sourceTree = "<group>"; };
+		1C335F5D1C50DA8E00BCD9D4 /* extra-r4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "extra-r4.jpg"; sourceTree = "<group>"; };
+		1C335F5E1C50DA8E00BCD9D4 /* icon_session.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_session.png; sourceTree = "<group>"; };
+		1C335F5F1C50DA8E00BCD9D4 /* icon_session@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_session@2x.png"; sourceTree = "<group>"; };
+		1C335F601C50DA8E00BCD9D4 /* icon_timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_timeline.png; sourceTree = "<group>"; };
+		1C335F611C50DA8E00BCD9D4 /* icon_timeline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_timeline@2x.png"; sourceTree = "<group>"; };
+		1C335F621C50DA8E00BCD9D4 /* JuiceBG@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "JuiceBG@2x.jpg"; sourceTree = "<group>"; };
+		1C335F631C50DA8E00BCD9D4 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		1C335F641C50DA8E00BCD9D4 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		1C335F651C50DA8E00BCD9D4 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		1C335F661C50DA8E00BCD9D4 /* messageIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messageIcon@2x.png"; sourceTree = "<group>"; };
+		1C335F671C50DA8E00BCD9D4 /* OrderConfirmBG@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "OrderConfirmBG@2x.jpg"; sourceTree = "<group>"; };
+		1C335F681C50DA8E00BCD9D4 /* pink_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink_bg@2x.png"; sourceTree = "<group>"; };
+		1C335F691C50DA8E00BCD9D4 /* pink_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink_bg@3x.png"; sourceTree = "<group>"; };
+		1C335F6A1C50DA8E00BCD9D4 /* successIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "successIcon@2x.png"; sourceTree = "<group>"; };
+		1C335F6B1C50DA8E00BCD9D4 /* warningIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warningIcon@2x.png"; sourceTree = "<group>"; };
+		1C335F6C1C50DA8E00BCD9D4 /* 提货券使用说明.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "提货券使用说明.jpg"; sourceTree = "<group>"; };
+		1C335F841C50DAF300BCD9D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C4079BB1C604AFE00FF6137 /* ZRHistogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRHistogram.h; sourceTree = "<group>"; };
+		1C4079BC1C604AFE00FF6137 /* ZRHistogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRHistogram.m; sourceTree = "<group>"; };
+		1C434C791C5B0DED00B8621D /* Product */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Product; sourceTree = "<group>"; };
+		1C434C7A1C5B0DED00B8621D /* ProductComments */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductComments; sourceTree = "<group>"; };
+		1C434C7B1C5B0DED00B8621D /* ProductFruitEat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductFruitEat; sourceTree = "<group>"; };
+		1C434C7C1C5B0DED00B8621D /* ProductSendRegion */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductSendRegion; sourceTree = "<group>"; };
+		1C434C7D1C5B0DED00B8621D /* ProductsList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductsList; sourceTree = "<group>"; };
+		1C5659AF1C7C453400A45095 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		1C59AE381C58807E00A09573 /* ZRProductDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRProductDetailCell.h; sourceTree = "<group>"; };
+		1C59AE391C58807E00A09573 /* ZRProductDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRProductDetailCell.m; sourceTree = "<group>"; };
+		1C6904D81C859A470040967A /* ZRFruitEatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFruitEatTableViewCell.h; sourceTree = "<group>"; };
+		1C6904D91C859A470040967A /* ZRFruitEatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRFruitEatTableViewCell.m; sourceTree = "<group>"; };
+		1C7721951C89A26300831333 /* ZRFruitEatTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFruitEatTableHeaderView.h; sourceTree = "<group>"; };
+		1C7721961C89A26300831333 /* ZRFruitEatTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRFruitEatTableHeaderView.m; sourceTree = "<group>"; };
+		1C7AC3671C55F95000E13D20 /* Classify */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Classify; sourceTree = "<group>"; };
+		1C7AC36C1C55F95000E13D20 /* SubClassifyDetail */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SubClassifyDetail; sourceTree = "<group>"; };
+		1C7AC36F1C55F95000E13D20 /* LastestContent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LastestContent; sourceTree = "<group>"; };
+		1C7AC3711C55F95000E13D20 /* TopButton */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TopButton; sourceTree = "<group>"; };
+		1C7AC3751C55F95000E13D20 /* Address */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Address; sourceTree = "<group>"; };
+		1C7AC3761C55F95000E13D20 /* Home */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Home; sourceTree = "<group>"; };
+		1C7AC3831C55FBF300E13D20 /* ZRSubClassifyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSubClassifyDetailViewController.h; sourceTree = "<group>"; };
+		1C7AC3841C55FBF300E13D20 /* ZRSubClassifyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSubClassifyDetailViewController.m; sourceTree = "<group>"; };
+		1C7AC3861C5610DC00E13D20 /* ZRProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRProductDetailViewController.h; sourceTree = "<group>"; };
+		1C7AC3871C5610DC00E13D20 /* ZRProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRProductDetailViewController.m; sourceTree = "<group>"; };
+		1C7AC3891C5610F700E13D20 /* ZRProductListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRProductListTableViewCell.h; sourceTree = "<group>"; };
+		1C7AC38A1C5610F700E13D20 /* ZRProductListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRProductListTableViewCell.m; sourceTree = "<group>"; };
+		1C7AC3931C561EFA00E13D20 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		1C7AC3941C561EFA00E13D20 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		1C7AC39D1C56373000E13D20 /* ZRCommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRCommonView.h; sourceTree = "<group>"; };
+		1C7AC39E1C56373000E13D20 /* ZRCommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRCommonView.m; sourceTree = "<group>"; };
+		1C7F7E631C51C4D90012A5DF /* ZRPersonalGardenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRPersonalGardenViewController.h; sourceTree = "<group>"; };
+		1C7F7E641C51C4D90012A5DF /* ZRPersonalGardenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRPersonalGardenViewController.m; sourceTree = "<group>"; };
+		1C7F7E661C51C4E60012A5DF /* ZRShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRShoppingCartViewController.h; sourceTree = "<group>"; };
+		1C7F7E671C51C4E60012A5DF /* ZRShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRShoppingCartViewController.m; sourceTree = "<group>"; };
+		1C7F7E691C51C4F40012A5DF /* ZRFruitEatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFruitEatViewController.h; sourceTree = "<group>"; };
+		1C7F7E6A1C51C4F40012A5DF /* ZRFruitEatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRFruitEatViewController.m; sourceTree = "<group>"; };
+		1C7F7E7B1C5226620012A5DF /* Classify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Classify.h; sourceTree = "<group>"; };
+		1C7F7E7C1C5226620012A5DF /* Classify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Classify.m; sourceTree = "<group>"; };
+		1C7F7E861C5226620012A5DF /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		1C7F7E871C5226620012A5DF /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		1C7F7E8E1C522F050012A5DF /* ZRHomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		1C7F7E8F1C522F050012A5DF /* ZRHomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		1C7F7E901C522F050012A5DF /* ZRHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRHomeTableViewCell.h; sourceTree = "<group>"; };
+		1C7F7E911C522F050012A5DF /* ZRHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRHomeTableViewCell.m; sourceTree = "<group>"; };
+		1C7F7E941C522F1F0012A5DF /* ZRClassifyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRClassifyCollectionViewCell.h; sourceTree = "<group>"; };
+		1C7F7E951C522F1F0012A5DF /* ZRClassifyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRClassifyCollectionViewCell.m; sourceTree = "<group>"; };
+		1C8B7F161C5F03FA00E75153 /* ZRCommentsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRCommentsDetailViewController.h; sourceTree = "<group>"; };
+		1C8B7F171C5F03FA00E75153 /* ZRCommentsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRCommentsDetailViewController.m; sourceTree = "<group>"; };
+		1C8B7F191C5F419A00E75153 /* CommentsDetail */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommentsDetail; sourceTree = "<group>"; };
+		1C8B7F1B1C5F41CA00E75153 /* CommentsDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsDetail.h; sourceTree = "<group>"; };
+		1C8B7F1C1C5F41CA00E75153 /* CommentsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsDetail.m; sourceTree = "<group>"; };
+		1C8B7F1E1C5F4B5B00E75153 /* ZRCommentsDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRCommentsDetailCell.h; sourceTree = "<group>"; };
+		1C8B7F1F1C5F4B5B00E75153 /* ZRCommentsDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRCommentsDetailCell.m; sourceTree = "<group>"; };
+		1C8FE6B71C48C44300A32AD7 /* ZRHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRHomeViewController.h; sourceTree = "<group>"; };
+		1C8FE6B81C48C44300A32AD7 /* ZRHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRHomeViewController.m; sourceTree = "<group>"; };
+		1C8FE6BD1C48C48E00A32AD7 /* ZRClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRClassifyViewController.h; sourceTree = "<group>"; };
+		1C8FE6BE1C48C48E00A32AD7 /* ZRClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRClassifyViewController.m; sourceTree = "<group>"; };
+		1C8FE6C31C48C7D600A32AD7 /* ZRBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBaseNavigationController.h; sourceTree = "<group>"; };
+		1C8FE6C41C48C7D600A32AD7 /* ZRBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBaseNavigationController.m; sourceTree = "<group>"; };
+		1C8FE6C51C48C7D600A32AD7 /* ZRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRBaseViewController.h; sourceTree = "<group>"; };
+		1C8FE6C61C48C7D600A32AD7 /* ZRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRBaseViewController.m; sourceTree = "<group>"; };
+		1C8FE6C91C48C80D00A32AD7 /* ZRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRTabBarController.h; sourceTree = "<group>"; };
+		1C8FE6CA1C48C80D00A32AD7 /* ZRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRTabBarController.m; sourceTree = "<group>"; };
+		1C9B3B7D1C745DE200763C21 /* ZRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRLoginViewController.h; sourceTree = "<group>"; };
+		1C9B3B7E1C745DE200763C21 /* ZRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRLoginViewController.m; sourceTree = "<group>"; };
+		1C9B3B801C745DF000763C21 /* ZRRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRRegisterViewController.h; sourceTree = "<group>"; };
+		1C9B3B811C745DF000763C21 /* ZRRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRRegisterViewController.m; sourceTree = "<group>"; };
+		1C9D0A051C8EC9FA005181F3 /* ZRRichScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRRichScanViewController.h; sourceTree = "<group>"; };
+		1C9D0A061C8EC9FA005181F3 /* ZRRichScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRRichScanViewController.m; sourceTree = "<group>"; };
+		1C9D0A081C8ECFF4005181F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1C9D0A0A1C8EED95005181F3 /* ZRFourCornersLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFourCornersLine.h; sourceTree = "<group>"; };
+		1C9D0A0B1C8EED95005181F3 /* ZRFourCornersLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRFourCornersLine.m; sourceTree = "<group>"; };
+		1CA367561C76A8070037725B /* ZRFruitDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ZRFruitDay.entitlements; sourceTree = "<group>"; };
+		1CA44D281C7FEB43002F4F20 /* ZRSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSettingViewController.h; sourceTree = "<group>"; };
+		1CA44D291C7FEB43002F4F20 /* ZRSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSettingViewController.m; sourceTree = "<group>"; };
+		1CA860631C85287100B14074 /* BottomContent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BottomContent; sourceTree = "<group>"; };
+		1CA860641C85287100B14074 /* MiddleContent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MiddleContent; sourceTree = "<group>"; };
+		1CA860681C85293E00B14074 /* FruitEat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitEat.h; sourceTree = "<group>"; };
+		1CA860691C85293E00B14074 /* FruitEat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitEat.m; sourceTree = "<group>"; };
+		1CBEB69C1C8699210061727A /* UIImage+ZRScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZRScale.h"; sourceTree = "<group>"; };
+		1CBEB69D1C8699210061727A /* UIImage+ZRScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZRScale.m"; sourceTree = "<group>"; };
+		1CBEB69F1C869A3A0061727A /* ZRFruitEatTopButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFruitEatTopButton.h; sourceTree = "<group>"; };
+		1CBEB6A01C869A3A0061727A /* ZRFruitEatTopButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRFruitEatTopButton.m; sourceTree = "<group>"; };
+		1CE4B6A71C89309400EB9004 /* ZRTopButtonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRTopButtonModel.h; sourceTree = "<group>"; };
+		1CE4B6A81C89309400EB9004 /* ZRTopButtonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRTopButtonModel.m; sourceTree = "<group>"; };
+		1CEA4FE31C50E2F20000A4E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1CF7F89C1C5A0F6900F316A8 /* ProductSendRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductSendRegion.h; sourceTree = "<group>"; };
+		1CF7F89D1C5A0F6900F316A8 /* ProductSendRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductSendRegion.m; sourceTree = "<group>"; };
+		53774A17E1CEE747FDA198D6 /* Pods-ZRFruitDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRFruitDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZRFruitDay/Pods-ZRFruitDay.debug.xcconfig"; sourceTree = "<group>"; };
+		E80FF711F3D63A0711A12EEA /* Pods_ZRFruitDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZRFruitDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4024F1E6563DF409AD36264 /* Pods-ZRFruitDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRFruitDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZRFruitDay/Pods-ZRFruitDay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C23857C1C4898B0007D2AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9D0A091C8ECFF4005181F3 /* AVFoundation.framework in Frameworks */,
+				1C5659B01C7C453400A45095 /* PassKit.framework in Frameworks */,
+				3DA26BA5DA57F821AFA8CFA4 /* Pods_ZRFruitDay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2385951C4898B0007D2AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C2385761C4898AF007D2AC9 = {
+			isa = PBXGroup;
+			children = (
+				1CEA4FE31C50E2F20000A4E3 /* Default-568h@2x.png */,
+				1C2385811C4898B0007D2AC9 /* ZRFruitDay */,
+				1C23859B1C4898B0007D2AC9 /* ZRFruitDayTests */,
+				1C2385801C4898B0007D2AC9 /* Products */,
+				4F0892F18DDE01B73A593C5C /* Frameworks */,
+				ACFBD09E1E1D0B763A12A5A2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1C2385801C4898B0007D2AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C23857F1C4898B0007D2AC9 /* ZRFruitDay.app */,
+				1C2385981C4898B0007D2AC9 /* ZRFruitDayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C2385811C4898B0007D2AC9 /* ZRFruitDay */ = {
+			isa = PBXGroup;
+			children = (
+				1CA367561C76A8070037725B /* ZRFruitDay.entitlements */,
+				1C2385851C4898B0007D2AC9 /* AppDelegate.h */,
+				1C2385861C4898B0007D2AC9 /* AppDelegate.m */,
+				1C8FE6B21C48C3CC00A32AD7 /* Home */,
+				1C8FE6B11C48C3CC00A32AD7 /* Classify */,
+				1C7F7E611C51C4A40012A5DF /* PersonalGarden */,
+				1C7F7E621C51C4A40012A5DF /* ShoppingCart */,
+				1C7F7E601C51C4A40012A5DF /* FruitEat */,
+				1C8FE6C21C48C7D600A32AD7 /* CommonClass */,
+				1C8FE6CC1C48CC4400A32AD7 /* JSONModel */,
+				1C7AC3651C55F95000E13D20 /* JsonText */,
+				1C335F571C50DA8E00BCD9D4 /* Source */,
+				1C2385821C4898B0007D2AC9 /* Supporting Files */,
+			);
+			path = ZRFruitDay;
+			sourceTree = "<group>";
+		};
+		1C2385821C4898B0007D2AC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C335F841C50DAF300BCD9D4 /* Images.xcassets */,
+				1C2385931C4898B0007D2AC9 /* Info.plist */,
+				1C2385831C4898B0007D2AC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C23859B1C4898B0007D2AC9 /* ZRFruitDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C23859C1C4898B0007D2AC9 /* ZRFruitDayTests.m */,
+				1C23859E1C4898B0007D2AC9 /* Info.plist */,
+			);
+			path = ZRFruitDayTests;
+			sourceTree = "<group>";
+		};
+		1C335F491C506E1500BCD9D4 /* SubCell */ = {
+			isa = PBXGroup;
+			children = (
+				1C59AE381C58807E00A09573 /* ZRProductDetailCell.h */,
+				1C59AE391C58807E00A09573 /* ZRProductDetailCell.m */,
+				1C7F7E8E1C522F050012A5DF /* ZRHomeCollectionViewCell.h */,
+				1C7F7E8F1C522F050012A5DF /* ZRHomeCollectionViewCell.m */,
+				1C7F7E901C522F050012A5DF /* ZRHomeTableViewCell.h */,
+				1C7F7E911C522F050012A5DF /* ZRHomeTableViewCell.m */,
+				1C7F7E941C522F1F0012A5DF /* ZRClassifyCollectionViewCell.h */,
+				1C7F7E951C522F1F0012A5DF /* ZRClassifyCollectionViewCell.m */,
+				1C7AC3891C5610F700E13D20 /* ZRProductListTableViewCell.h */,
+				1C7AC38A1C5610F700E13D20 /* ZRProductListTableViewCell.m */,
+				1C8B7F1E1C5F4B5B00E75153 /* ZRCommentsDetailCell.h */,
+				1C8B7F1F1C5F4B5B00E75153 /* ZRCommentsDetailCell.m */,
+				1C6904D81C859A470040967A /* ZRFruitEatTableViewCell.h */,
+				1C6904D91C859A470040967A /* ZRFruitEatTableViewCell.m */,
+				1CBEB69F1C869A3A0061727A /* ZRFruitEatTopButton.h */,
+				1CBEB6A01C869A3A0061727A /* ZRFruitEatTopButton.m */,
+			);
+			path = SubCell;
+			sourceTree = "<group>";
+		};
+		1C335F4E1C507EB900BCD9D4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1C335F4F1C507ED700BCD9D4 /* UIColor+ZRAddition.h */,
+				1C335F501C507ED700BCD9D4 /* UIColor+ZRAddition.m */,
+				1CBEB69C1C8699210061727A /* UIImage+ZRScale.h */,
+				1CBEB69D1C8699210061727A /* UIImage+ZRScale.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1C335F571C50DA8E00BCD9D4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1C335F581C50DA8E00BCD9D4 /* AppIcon40x40@2x.png */,
+				1C335F591C50DA8E00BCD9D4 /* AppIcon60x60@2x.png */,
+				1C335F5A1C50DA8E00BCD9D4 /* AppIcon60x60@3x.png */,
+				1C335F5B1C50DA8E00BCD9D4 /* bg_business@2x.jpg */,
+				1C335F5C1C50DA8E00BCD9D4 /* errorIcon@2x.png */,
+				1C335F5D1C50DA8E00BCD9D4 /* extra-r4.jpg */,
+				1C335F5E1C50DA8E00BCD9D4 /* icon_session.png */,
+				1C335F5F1C50DA8E00BCD9D4 /* icon_session@2x.png */,
+				1C335F601C50DA8E00BCD9D4 /* icon_timeline.png */,
+				1C335F611C50DA8E00BCD9D4 /* icon_timeline@2x.png */,
+				1C335F621C50DA8E00BCD9D4 /* JuiceBG@2x.jpg */,
+				1C335F631C50DA8E00BCD9D4 /* LaunchImage-700-568h@2x.png */,
+				1C335F641C50DA8E00BCD9D4 /* LaunchImage-800-667h@2x.png */,
+				1C335F651C50DA8E00BCD9D4 /* LaunchImage-800-Portrait-736h@3x.png */,
+				1C335F661C50DA8E00BCD9D4 /* messageIcon@2x.png */,
+				1C335F671C50DA8E00BCD9D4 /* OrderConfirmBG@2x.jpg */,
+				1C335F681C50DA8E00BCD9D4 /* pink_bg@2x.png */,
+				1C335F691C50DA8E00BCD9D4 /* pink_bg@3x.png */,
+				1C335F6A1C50DA8E00BCD9D4 /* successIcon@2x.png */,
+				1C335F6B1C50DA8E00BCD9D4 /* warningIcon@2x.png */,
+				1C335F6C1C50DA8E00BCD9D4 /* 提货券使用说明.jpg */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1C434C781C5B0DED00B8621D /* 其他商品详情页 */ = {
+			isa = PBXGroup;
+			children = (
+				1C8B7F191C5F419A00E75153 /* CommentsDetail */,
+				1C434C791C5B0DED00B8621D /* Product */,
+				1C434C7A1C5B0DED00B8621D /* ProductComments */,
+				1C434C7B1C5B0DED00B8621D /* ProductFruitEat */,
+				1C434C7C1C5B0DED00B8621D /* ProductSendRegion */,
+				1C434C7D1C5B0DED00B8621D /* ProductsList */,
+			);
+			path = "其他商品详情页";
+			sourceTree = "<group>";
+		};
+		1C7AC3651C55F95000E13D20 /* JsonText */ = {
+			isa = PBXGroup;
+			children = (
+				1C7AC3741C55F95000E13D20 /* 首页 */,
+				1C7AC3661C55F95000E13D20 /* 品类 */,
+				1C7AC36D1C55F95000E13D20 /* 我的果园 */,
+				1C7AC3731C55F95000E13D20 /* 购物车 */,
+				1C7AC36E1C55F95000E13D20 /* 果食 */,
+			);
+			path = JsonText;
+			sourceTree = "<group>";
+		};
+		1C7AC3661C55F95000E13D20 /* 品类 */ = {
+			isa = PBXGroup;
+			children = (
+				1C434C781C5B0DED00B8621D /* 其他商品详情页 */,
+				1C7AC3671C55F95000E13D20 /* Classify */,
+				1C7AC36C1C55F95000E13D20 /* SubClassifyDetail */,
+			);
+			path = "品类";
+			sourceTree = "<group>";
+		};
+		1C7AC36D1C55F95000E13D20 /* 我的果园 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的果园";
+			sourceTree = "<group>";
+		};
+		1C7AC36E1C55F95000E13D20 /* 果食 */ = {
+			isa = PBXGroup;
+			children = (
+				1CA860631C85287100B14074 /* BottomContent */,
+				1CA860641C85287100B14074 /* MiddleContent */,
+				1C7AC36F1C55F95000E13D20 /* LastestContent */,
+				1C7AC3711C55F95000E13D20 /* TopButton */,
+			);
+			path = "果食";
+			sourceTree = "<group>";
+		};
+		1C7AC3731C55F95000E13D20 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+		1C7AC3741C55F95000E13D20 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				1C7AC3751C55F95000E13D20 /* Address */,
+				1C7AC3761C55F95000E13D20 /* Home */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		1C7AC38C1C56173700E13D20 /* ProductModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C7AC3931C561EFA00E13D20 /* Product.h */,
+				1C7AC3941C561EFA00E13D20 /* Product.m */,
+				1CF7F89C1C5A0F6900F316A8 /* ProductSendRegion.h */,
+				1CF7F89D1C5A0F6900F316A8 /* ProductSendRegion.m */,
+				1C8B7F1B1C5F41CA00E75153 /* CommentsDetail.h */,
+				1C8B7F1C1C5F41CA00E75153 /* CommentsDetail.m */,
+			);
+			path = ProductModel;
+			sourceTree = "<group>";
+		};
+		1C7AC39C1C5636C000E13D20 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				1C7AC39D1C56373000E13D20 /* ZRCommonView.h */,
+				1C7AC39E1C56373000E13D20 /* ZRCommonView.m */,
+				1C4079BB1C604AFE00FF6137 /* ZRHistogram.h */,
+				1C4079BC1C604AFE00FF6137 /* ZRHistogram.m */,
+				1C9D0A0A1C8EED95005181F3 /* ZRFourCornersLine.h */,
+				1C9D0A0B1C8EED95005181F3 /* ZRFourCornersLine.m */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		1C7F7E601C51C4A40012A5DF /* FruitEat */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F7E691C51C4F40012A5DF /* ZRFruitEatViewController.h */,
+				1C7F7E6A1C51C4F40012A5DF /* ZRFruitEatViewController.m */,
+				1CE4B6A71C89309400EB9004 /* ZRTopButtonModel.h */,
+				1CE4B6A81C89309400EB9004 /* ZRTopButtonModel.m */,
+				1C7721951C89A26300831333 /* ZRFruitEatTableHeaderView.h */,
+				1C7721961C89A26300831333 /* ZRFruitEatTableHeaderView.m */,
+				1C9D0A051C8EC9FA005181F3 /* ZRRichScanViewController.h */,
+				1C9D0A061C8EC9FA005181F3 /* ZRRichScanViewController.m */,
+			);
+			path = FruitEat;
+			sourceTree = "<group>";
+		};
+		1C7F7E611C51C4A40012A5DF /* PersonalGarden */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F7E631C51C4D90012A5DF /* ZRPersonalGardenViewController.h */,
+				1C7F7E641C51C4D90012A5DF /* ZRPersonalGardenViewController.m */,
+				1C9B3B7D1C745DE200763C21 /* ZRLoginViewController.h */,
+				1C9B3B7E1C745DE200763C21 /* ZRLoginViewController.m */,
+				1C9B3B801C745DF000763C21 /* ZRRegisterViewController.h */,
+				1C9B3B811C745DF000763C21 /* ZRRegisterViewController.m */,
+				1CA44D281C7FEB43002F4F20 /* ZRSettingViewController.h */,
+				1CA44D291C7FEB43002F4F20 /* ZRSettingViewController.m */,
+			);
+			path = PersonalGarden;
+			sourceTree = "<group>";
+		};
+		1C7F7E621C51C4A40012A5DF /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F7E661C51C4E60012A5DF /* ZRShoppingCartViewController.h */,
+				1C7F7E671C51C4E60012A5DF /* ZRShoppingCartViewController.m */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		1C7F7E7A1C5226620012A5DF /* ClassifyModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F7E7B1C5226620012A5DF /* Classify.h */,
+				1C7F7E7C1C5226620012A5DF /* Classify.m */,
+				1C7AC38C1C56173700E13D20 /* ProductModel */,
+			);
+			path = ClassifyModel;
+			sourceTree = "<group>";
+		};
+		1C7F7E831C5226620012A5DF /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F7E861C5226620012A5DF /* Home.h */,
+				1C7F7E871C5226620012A5DF /* Home.m */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		1C8FE6B11C48C3CC00A32AD7 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				1C8FE6BD1C48C48E00A32AD7 /* ZRClassifyViewController.h */,
+				1C8FE6BE1C48C48E00A32AD7 /* ZRClassifyViewController.m */,
+				1C7AC3831C55FBF300E13D20 /* ZRSubClassifyDetailViewController.h */,
+				1C7AC3841C55FBF300E13D20 /* ZRSubClassifyDetailViewController.m */,
+				1C7AC3861C5610DC00E13D20 /* ZRProductDetailViewController.h */,
+				1C7AC3871C5610DC00E13D20 /* ZRProductDetailViewController.m */,
+				1C8B7F161C5F03FA00E75153 /* ZRCommentsDetailViewController.h */,
+				1C8B7F171C5F03FA00E75153 /* ZRCommentsDetailViewController.m */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		1C8FE6B21C48C3CC00A32AD7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1C8FE6B71C48C44300A32AD7 /* ZRHomeViewController.h */,
+				1C8FE6B81C48C44300A32AD7 /* ZRHomeViewController.m */,
+				1C335F521C50B6BC00BCD9D4 /* ZRWebViewDetailViewController.h */,
+				1C335F531C50B6BC00BCD9D4 /* ZRWebViewDetailViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1C8FE6C21C48C7D600A32AD7 /* CommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				1C8FE6C31C48C7D600A32AD7 /* ZRBaseNavigationController.h */,
+				1C8FE6C41C48C7D600A32AD7 /* ZRBaseNavigationController.m */,
+				1C8FE6C51C48C7D600A32AD7 /* ZRBaseViewController.h */,
+				1C8FE6C61C48C7D600A32AD7 /* ZRBaseViewController.m */,
+				1C8FE6C91C48C80D00A32AD7 /* ZRTabBarController.h */,
+				1C8FE6CA1C48C80D00A32AD7 /* ZRTabBarController.m */,
+				1C30C26B1C4CCDEC005B796E /* CommonDefines.h */,
+				1C0493401C843B48003F5B94 /* ZRUser.h */,
+				1C0493411C843B48003F5B94 /* ZRUser.m */,
+				1C335F4E1C507EB900BCD9D4 /* Category */,
+				1C7AC39C1C5636C000E13D20 /* CommonView */,
+				1C335F491C506E1500BCD9D4 /* SubCell */,
+			);
+			path = CommonClass;
+			sourceTree = "<group>";
+		};
+		1C8FE6CC1C48CC4400A32AD7 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C7F7E831C5226620012A5DF /* HomeModel */,
+				1C7F7E7A1C5226620012A5DF /* ClassifyModel */,
+				1CA860671C8528FA00B14074 /* FruitEatModel */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		1CA860671C8528FA00B14074 /* FruitEatModel */ = {
+			isa = PBXGroup;
+			children = (
+				1CA860681C85293E00B14074 /* FruitEat.h */,
+				1CA860691C85293E00B14074 /* FruitEat.m */,
+			);
+			path = FruitEatModel;
+			sourceTree = "<group>";
+		};
+		4F0892F18DDE01B73A593C5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C9D0A081C8ECFF4005181F3 /* AVFoundation.framework */,
+				1C5659AF1C7C453400A45095 /* PassKit.framework */,
+				E80FF711F3D63A0711A12EEA /* Pods_ZRFruitDay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACFBD09E1E1D0B763A12A5A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53774A17E1CEE747FDA198D6 /* Pods-ZRFruitDay.debug.xcconfig */,
+				F4024F1E6563DF409AD36264 /* Pods-ZRFruitDay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C23857E1C4898B0007D2AC9 /* ZRFruitDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2385A11C4898B0007D2AC9 /* Build configuration list for PBXNativeTarget "ZRFruitDay" */;
+			buildPhases = (
+				FCC43D5D5E9D02A65580FFED /* Check Pods Manifest.lock */,
+				1C23857B1C4898B0007D2AC9 /* Sources */,
+				1C23857C1C4898B0007D2AC9 /* Frameworks */,
+				1C23857D1C4898B0007D2AC9 /* Resources */,
+				C39EB3881523A763CF370A90 /* Embed Pods Frameworks */,
+				9C9CB0F689CC455D2203E7B4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZRFruitDay;
+			productName = ZRFruitDay;
+			productReference = 1C23857F1C4898B0007D2AC9 /* ZRFruitDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C2385971C4898B0007D2AC9 /* ZRFruitDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2385A41C4898B0007D2AC9 /* Build configuration list for PBXNativeTarget "ZRFruitDayTests" */;
+			buildPhases = (
+				1C2385941C4898B0007D2AC9 /* Sources */,
+				1C2385951C4898B0007D2AC9 /* Frameworks */,
+				1C2385961C4898B0007D2AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C23859A1C4898B0007D2AC9 /* PBXTargetDependency */,
+			);
+			name = ZRFruitDayTests;
+			productName = ZRFruitDayTests;
+			productReference = 1C2385981C4898B0007D2AC9 /* ZRFruitDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C2385771C4898AF007D2AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ShiYangtao;
+				TargetAttributes = {
+					1C23857E1C4898B0007D2AC9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7DAPKZUH5Z;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 0;
+							};
+						};
+					};
+					1C2385971C4898B0007D2AC9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1C23857E1C4898B0007D2AC9;
+					};
+				};
+			};
+			buildConfigurationList = 1C23857A1C4898AF007D2AC9 /* Build configuration list for PBXProject "ZRFruitDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C2385761C4898AF007D2AC9;
+			productRefGroup = 1C2385801C4898B0007D2AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C23857E1C4898B0007D2AC9 /* ZRFruitDay */,
+				1C2385971C4898B0007D2AC9 /* ZRFruitDayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C23857D1C4898B0007D2AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C335F781C50DA8E00BCD9D4 /* JuiceBG@2x.jpg in Resources */,
+				1C434C7E1C5B0DED00B8621D /* Product in Resources */,
+				1C335F801C50DA8E00BCD9D4 /* successIcon@2x.png in Resources */,
+				1C335F791C50DA8E00BCD9D4 /* LaunchImage-700-568h@2x.png in Resources */,
+				1C335F7D1C50DA8E00BCD9D4 /* OrderConfirmBG@2x.jpg in Resources */,
+				1C7AC3771C55F95000E13D20 /* Classify in Resources */,
+				1C8B7F1A1C5F419A00E75153 /* CommentsDetail in Resources */,
+				1C335F6E1C50DA8E00BCD9D4 /* AppIcon40x40@2x.png in Resources */,
+				1C335F821C50DA8E00BCD9D4 /* 提货券使用说明.jpg in Resources */,
+				1C335F711C50DA8E00BCD9D4 /* bg_business@2x.jpg in Resources */,
+				1C335F731C50DA8E00BCD9D4 /* extra-r4.jpg in Resources */,
+				1C7AC37F1C55F95000E13D20 /* TopButton in Resources */,
+				1C7AC37D1C55F95000E13D20 /* LastestContent in Resources */,
+				1C335F851C50DAF300BCD9D4 /* Images.xcassets in Resources */,
+				1C335F771C50DA8E00BCD9D4 /* icon_timeline@2x.png in Resources */,
+				1C7AC3811C55F95000E13D20 /* Address in Resources */,
+				1CEA4FE41C50E2F20000A4E3 /* Default-568h@2x.png in Resources */,
+				1C335F761C50DA8E00BCD9D4 /* icon_timeline.png in Resources */,
+				1CA860661C85287100B14074 /* MiddleContent in Resources */,
+				1C335F7C1C50DA8E00BCD9D4 /* messageIcon@2x.png in Resources */,
+				1C434C811C5B0DED00B8621D /* ProductSendRegion in Resources */,
+				1C335F751C50DA8E00BCD9D4 /* icon_session@2x.png in Resources */,
+				1C335F721C50DA8E00BCD9D4 /* errorIcon@2x.png in Resources */,
+				1C335F7B1C50DA8E00BCD9D4 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				1C335F6F1C50DA8E00BCD9D4 /* AppIcon60x60@2x.png in Resources */,
+				1C434C7F1C5B0DED00B8621D /* ProductComments in Resources */,
+				1C335F7E1C50DA8E00BCD9D4 /* pink_bg@2x.png in Resources */,
+				1C335F7F1C50DA8E00BCD9D4 /* pink_bg@3x.png in Resources */,
+				1C434C821C5B0DED00B8621D /* ProductsList in Resources */,
+				1C335F741C50DA8E00BCD9D4 /* icon_session.png in Resources */,
+				1CA860651C85287100B14074 /* BottomContent in Resources */,
+				1C7AC37C1C55F95000E13D20 /* SubClassifyDetail in Resources */,
+				1C335F7A1C50DA8E00BCD9D4 /* LaunchImage-800-667h@2x.png in Resources */,
+				1C434C801C5B0DED00B8621D /* ProductFruitEat in Resources */,
+				1C335F811C50DA8E00BCD9D4 /* warningIcon@2x.png in Resources */,
+				1C335F701C50DA8E00BCD9D4 /* AppIcon60x60@3x.png in Resources */,
+				1C7AC3821C55F95000E13D20 /* Home in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2385961C4898B0007D2AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C9CB0F689CC455D2203E7B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZRFruitDay/Pods-ZRFruitDay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39EB3881523A763CF370A90 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZRFruitDay/Pods-ZRFruitDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC43D5D5E9D02A65580FFED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C23857B1C4898B0007D2AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7F7E651C51C4D90012A5DF /* ZRPersonalGardenViewController.m in Sources */,
+				1C7F7E921C522F050012A5DF /* ZRHomeCollectionViewCell.m in Sources */,
+				1C9B3B7F1C745DE200763C21 /* ZRLoginViewController.m in Sources */,
+				1C7F7E681C51C4E60012A5DF /* ZRShoppingCartViewController.m in Sources */,
+				1C7AC3881C5610DC00E13D20 /* ZRProductDetailViewController.m in Sources */,
+				1C7F7E6B1C51C4F40012A5DF /* ZRFruitEatViewController.m in Sources */,
+				1CF7F89E1C5A0F6900F316A8 /* ProductSendRegion.m in Sources */,
+				1C8FE6BF1C48C48E00A32AD7 /* ZRClassifyViewController.m in Sources */,
+				1C7AC38B1C5610F700E13D20 /* ZRProductListTableViewCell.m in Sources */,
+				1C8FE6C81C48C7D600A32AD7 /* ZRBaseViewController.m in Sources */,
+				1C8B7F201C5F4B5B00E75153 /* ZRCommentsDetailCell.m in Sources */,
+				1C4079BD1C604AFE00FF6137 /* ZRHistogram.m in Sources */,
+				1CBEB69E1C8699210061727A /* UIImage+ZRScale.m in Sources */,
+				1C335F541C50B6BC00BCD9D4 /* ZRWebViewDetailViewController.m in Sources */,
+				1C8B7F1D1C5F41CA00E75153 /* CommentsDetail.m in Sources */,
+				1C0493421C843B48003F5B94 /* ZRUser.m in Sources */,
+				1C9D0A071C8EC9FA005181F3 /* ZRRichScanViewController.m in Sources */,
+				1C7721971C89A26300831333 /* ZRFruitEatTableHeaderView.m in Sources */,
+				1C7F7E931C522F050012A5DF /* ZRHomeTableViewCell.m in Sources */,
+				1C8FE6CB1C48C80D00A32AD7 /* ZRTabBarController.m in Sources */,
+				1C7F7E8D1C5226620012A5DF /* Home.m in Sources */,
+				1C7F7E881C5226620012A5DF /* Classify.m in Sources */,
+				1C2385871C4898B0007D2AC9 /* AppDelegate.m in Sources */,
+				1C59AE3A1C58807E00A09573 /* ZRProductDetailCell.m in Sources */,
+				1C8FE6C71C48C7D600A32AD7 /* ZRBaseNavigationController.m in Sources */,
+				1CA44D2A1C7FEB43002F4F20 /* ZRSettingViewController.m in Sources */,
+				1C9D0A0C1C8EED95005181F3 /* ZRFourCornersLine.m in Sources */,
+				1C9B3B821C745DF000763C21 /* ZRRegisterViewController.m in Sources */,
+				1CE4B6A91C89309400EB9004 /* ZRTopButtonModel.m in Sources */,
+				1C7F7E961C522F1F0012A5DF /* ZRClassifyCollectionViewCell.m in Sources */,
+				1C7AC3951C561EFA00E13D20 /* Product.m in Sources */,
+				1CA8606A1C85293E00B14074 /* FruitEat.m in Sources */,
+				1C8FE6B91C48C44300A32AD7 /* ZRHomeViewController.m in Sources */,
+				1C8B7F181C5F03FA00E75153 /* ZRCommentsDetailViewController.m in Sources */,
+				1C7AC3851C55FBF300E13D20 /* ZRSubClassifyDetailViewController.m in Sources */,
+				1CBEB6A11C869A3A0061727A /* ZRFruitEatTopButton.m in Sources */,
+				1C335F511C507ED700BCD9D4 /* UIColor+ZRAddition.m in Sources */,
+				1C6904DA1C859A470040967A /* ZRFruitEatTableViewCell.m in Sources */,
+				1C7AC39F1C56373000E13D20 /* ZRCommonView.m in Sources */,
+				1C2385841C4898B0007D2AC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C2385941C4898B0007D2AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C23859D1C4898B0007D2AC9 /* ZRFruitDayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C23859A1C4898B0007D2AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C23857E1C4898B0007D2AC9 /* ZRFruitDay */;
+			targetProxy = 1C2385991C4898B0007D2AC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C23859F1C4898B0007D2AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C2385A01C4898B0007D2AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C2385A21C4898B0007D2AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53774A17E1CEE747FDA198D6 /* Pods-ZRFruitDay.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$CONFIGURATION_BUILD_DIR/MJExtension\"",
+					"\"$CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$CONFIGURATION_BUILD_DIR/SDWebImage\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				INFOPLIST_FILE = ZRFruitDay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"$CONFIGURATION_BUILD_DIR/MJExtension/MJExtension.framework/Headers\"",
+					"-iquote",
+					"\"$CONFIGURATION_BUILD_DIR/MJRefresh/MJRefresh.framework/Headers\"",
+					"-iquote",
+					"\"$CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"iconv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfbests.ZRFruitDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1C2385A31C4898B0007D2AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4024F1E6563DF409AD36264 /* Pods-ZRFruitDay.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$CONFIGURATION_BUILD_DIR/MJExtension\"",
+					"\"$CONFIGURATION_BUILD_DIR/MJRefresh\"",
+					"\"$CONFIGURATION_BUILD_DIR/SDWebImage\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				INFOPLIST_FILE = ZRFruitDay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"$CONFIGURATION_BUILD_DIR/MJExtension/MJExtension.framework/Headers\"",
+					"-iquote",
+					"\"$CONFIGURATION_BUILD_DIR/MJRefresh/MJRefresh.framework/Headers\"",
+					"-iquote",
+					"\"$CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework/Headers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"iconv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accounts\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfbests.ZRFruitDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1C2385A51C4898B0007D2AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZRFruitDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfbests.ZRFruitDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRFruitDay.app/ZRFruitDay";
+			};
+			name = Debug;
+		};
+		1C2385A61C4898B0007D2AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZRFruitDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sfbests.ZRFruitDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZRFruitDay.app/ZRFruitDay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C23857A1C4898AF007D2AC9 /* Build configuration list for PBXProject "ZRFruitDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C23859F1C4898B0007D2AC9 /* Debug */,
+				1C2385A01C4898B0007D2AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C2385A11C4898B0007D2AC9 /* Build configuration list for PBXNativeTarget "ZRFruitDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2385A21C4898B0007D2AC9 /* Debug */,
+				1C2385A31C4898B0007D2AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C2385A41C4898B0007D2AC9 /* Build configuration list for PBXNativeTarget "ZRFruitDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2385A51C4898B0007D2AC9 /* Debug */,
+				1C2385A61C4898B0007D2AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C2385771C4898AF007D2AC9 /* Project object */;
+}
