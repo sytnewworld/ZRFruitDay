@@ -210,7 +210,6 @@
 		1C9D0A081C8ECFF4005181F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1C9D0A0A1C8EED95005181F3 /* ZRFourCornersLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRFourCornersLine.h; sourceTree = "<group>"; };
 		1C9D0A0B1C8EED95005181F3 /* ZRFourCornersLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRFourCornersLine.m; sourceTree = "<group>"; };
-		1CA367561C76A8070037725B /* ZRFruitDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ZRFruitDay.entitlements; sourceTree = "<group>"; };
 		1CA44D281C7FEB43002F4F20 /* ZRSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSettingViewController.h; sourceTree = "<group>"; };
 		1CA44D291C7FEB43002F4F20 /* ZRSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSettingViewController.m; sourceTree = "<group>"; };
 		1CA860631C85287100B14074 /* BottomContent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BottomContent; sourceTree = "<group>"; };
@@ -276,7 +275,6 @@
 		1C2385811C4898B0007D2AC9 /* ZRFruitDay */ = {
 			isa = PBXGroup;
 			children = (
-				1CA367561C76A8070037725B /* ZRFruitDay.entitlements */,
 				1C2385851C4898B0007D2AC9 /* AppDelegate.h */,
 				1C2385861C4898B0007D2AC9 /* AppDelegate.m */,
 				1C8FE6B21C48C3CC00A32AD7 /* Home */,
@@ -949,6 +947,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53774A17E1CEE747FDA198D6 /* Pods-ZRFruitDay.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1005,7 +1004,7 @@
 					"-framework",
 					"\"SystemConfiguration\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sfbests.ZRFruitDay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowerz.ZRFruitDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1015,6 +1014,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4024F1E6563DF409AD36264 /* Pods-ZRFruitDay.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1071,7 +1071,7 @@
 					"-framework",
 					"\"SystemConfiguration\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sfbests.ZRFruitDay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowerz.ZRFruitDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
