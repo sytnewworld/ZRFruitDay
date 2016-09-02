@@ -1,0 +1,6 @@
+framework module ZRFlowerCocoa {
+  umbrella header "ZRFlowerCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

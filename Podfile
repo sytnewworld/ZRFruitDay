@@ -5,4 +5,6 @@ target 'ZRFruitDay' do
   pod 'MJExtension'
   pod 'SDWebImage'
   pod 'MJRefresh'
+  pod 'ReactiveCocoa'
+  pod 'ZRFlowerCocoa'
 end

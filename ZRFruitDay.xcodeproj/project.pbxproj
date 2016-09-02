@@ -655,8 +655,9 @@
 		1C2385771C4898AF007D2AC9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZR;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = ShiYangtao;
+				ORGANIZATIONNAME = ZRFlower;
 				TargetAttributes = {
 					1C23857E1C4898B0007D2AC9 = {
 						CreatedOnToolsVersion = 7.2;
